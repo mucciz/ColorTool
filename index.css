@@ -1,0 +1,17 @@
+body {
+    background-color: #111827;
+    height: 120vh;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: #1f2937;
+    
+}
+  
+input[type="range"]::-moz-range-track {
+    background: #1f2937;
+}
+
+.unselected {
+    opacity: 0.25;
+}
